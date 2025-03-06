@@ -92,7 +92,8 @@ for i in range(len(links_pais)):
 
     total = len(links_filhos)
     counter = 1
-
+    print(f"{len(links_filhos)} arquivos nesta sessão.")
+    
     for j in range(len(links_filhos)):
 
         #Login again
